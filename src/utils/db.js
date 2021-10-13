@@ -4,6 +4,7 @@ import pg from "pg" // a package which connects to postgreesql
 const { DATABASE_URL, DATABASE_URL_DEV, NODE_ENV } = process.env
 
 
+
 const isProduction = NODE_ENV === "production" // if it is deployed to heroku sets NODE_ENV ==== "production"
 // we can understand if code is running on heroku or local by checking it 
 
